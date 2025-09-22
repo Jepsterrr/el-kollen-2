@@ -63,7 +63,7 @@ Follow these steps to get a local copy up and running.
     * In your project settings, create a new Web App and copy the `firebaseConfig` credentials.
 
 4.  **Set up environment variables:**
-    * Create a file named `.env.local` in the root of the project.
+    * Create a file named `.env` in the root of the project.
     * Add your Firebase credentials to this file:
     ```
     NEXT_PUBLIC_FIREBASE_API_KEY="YOUR_API_KEY"
