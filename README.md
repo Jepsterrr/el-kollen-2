@@ -1,18 +1,16 @@
-# ⚡ El-Kollen 2.0
+# El-Kollen 2.0
 
 **El-Kollen 2.0 is a smart web application designed to help households in Sweden reduce their electricity costs by optimizing the usage of major appliances based on volatile spot prices.**
 
-![Screenshot of El-Kollen 2.0 Dashboard] ## 🎯 The Problem
-
 With hourly electricity spot prices (timpris), it's challenging for regular households to know the most cost-effective time to run high-consumption appliances like washing machines, tumble dryers, dishwashers, or to charge their electric vehicles. Existing apps often show the current price but fail to provide actionable, forward-looking advice.
 
-## ✨ The Solution
+## The Solution
 
 El-Kollen 2.0 is a Progressive Web App (PWA) that provides personalized and actionable recommendations to directly lower electricity bills. It fetches upcoming electricity prices and, based on the user's own appliances and personal constraints (e.g., "I only want to run the dishwasher between 22:00 and 07:00"), it calculates the optimal time to run them.
 
 The app features an advanced scheduling engine that can create an optimal schedule for multiple appliances, allowing for both parallel (maximum savings) and sequential (safer for the main fuse) execution strategies.
 
-## 🚀 Key Features
+## Key Features
 
 * **User Authentication:** Secure sign-up and login using Firebase Authentication (Email/Password & Google).
 * **Personalized Appliance Management:** Users can add, edit, and delete their home appliances.
@@ -26,7 +24,7 @@ The app features an advanced scheduling engine that can create an optimal schedu
 * **Concrete Savings Calculation:** Clearly shows the user how much they save in SEK compared to running the appliance immediately or at the day's peak price.
 * **Dynamic Price Area Selection:** Users can select their correct Swedish price area (SE1-SE4) for accurate calculations.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Framework:** [Next.js](https://nextjs.org/) (App Router)
 * **Language:** [TypeScript](https://www.typescriptlang.org/)
@@ -36,7 +34,7 @@ The app features an advanced scheduling engine that can create an optimal schedu
 * **Data Visualization:** [Chart.js](https://www.chartjs.org/) with `react-chartjs-2`
 * **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
 
-## ⚙️ Getting Started
+## Getting Started
 
 Follow these steps to get a local copy up and running.
 
